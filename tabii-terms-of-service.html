@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tabii 用户协议 / Terms of Service</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Noto Sans SC', -apple-system, sans-serif;
+      background: #fff;
+      color: #1a1a1a;
+      font-size: 14px;
+      line-height: 1.85;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 24px;
+      border-bottom: 1px solid #e5e5e5;
+      position: sticky;
+      top: 0;
+      background: #fff;
+      z-index: 100;
+    }
+
+    .topbar-logo {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+
+    .lang-btn {
+      padding: 5px 14px;
+      border: 1px solid #d1d5db;
+      border-radius: 6px;
+      background: #f9fafb;
+      font-size: 12px;
+      cursor: pointer;
+      font-family: inherit;
+      color: #374151;
+      transition: background 0.15s;
+    }
+    .lang-btn:hover { background: #f3f4f6; }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    .doc-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .doc-meta {
+      font-size: 12px;
+      color: #6b7280;
+      margin-bottom: 32px;
+    }
+
+    .notice {
+      border: 1px solid #fcd34d;
+      border-left: 4px solid #f59e0b;
+      background: #fffbeb;
+      border-radius: 6px;
+      padding: 14px 18px;
+      margin-bottom: 32px;
+      font-size: 13px;
+      color: #444;
+    }
+
+    .section { margin-bottom: 32px; }
+
+    .section-title {
+      font-size: 15px;
+      font-weight: 700;
+      border-bottom: 1.5px solid #1a1a1a;
+      padding-bottom: 6px;
+      margin-bottom: 14px;
+    }
+
+    .subsection-title {
+      font-weight: 600;
+      margin: 14px 0 4px;
+      font-size: 13.5px;
+    }
+
+    p { margin-bottom: 10px; color: #333; }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 10px;
+    }
+    ul li { margin-bottom: 6px; color: #333; }
+
+    strong { font-weight: 700; color: #1a1a1a; }
+
+    .warn-block {
+      background: #fff5f5;
+      border-left: 3px solid #ef4444;
+      padding: 10px 14px;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid #e5e5e5;
+      font-size: 12px;
+      color: #6b7280;
+      text-align: center;
+      line-height: 2;
+    }
+    .footer a { color: #2563eb; text-decoration: none; }
+
+    /* Language switching */
+    body.lang-en .zh { display: none; }
+    body.lang-zh .en { display: none; }
+  </style>
+</head>
+<body class="lang-zh">
+
+<div class="topbar">
+  <div class="topbar-logo">Tabii</div>
+  <button class="lang-btn" onclick="toggleLang()" id="lang-btn">EN</button>
+</div>
+
+<div class="container">
+
+  <div class="doc-title">
+    <span class="zh">用户协议</span>
+    <span class="en">Terms of Service</span>
+  </div>
+  <div class="doc-meta">
+    <span class="zh">发布日期：2026年3月9日 &nbsp;·&nbsp; 生效日期：2026年3月9日 &nbsp;·&nbsp; 开若图科技（上海）有限公司</span>
+    <span class="en">Published: March 9, 2026 &nbsp;·&nbsp; Effective: March 9, 2026 &nbsp;·&nbsp; Kairuotu Technology (Shanghai) Co., Ltd.</span>
+  </div>
+
+  <div class="notice">
+    <p class="zh">欢迎使用开若图科技（上海）有限公司（以下简称"开若图公司"）提供的 Tabii 浏览器插件产品及服务。在您开始使用 Tabii 之前，请务必审慎阅读并充分理解本协议，特别是<strong>免除或者限制责任的条款、法律适用和争议解决条款</strong>。如您未满 18 周岁，请在法定监护人陪同下阅读，并在取得监护人同意后方可使用。您点击"同意"、注册账号或实际使用 Tabii 的行为，即视为您已接受本协议全部内容。如您不同意本协议，请立即停止使用 Tabii。</p>
+    <p class="en">Welcome to Tabii, provided by Kairuotu Technology (Shanghai) Co., Ltd. ("Kairuotu"). Before using Tabii, please carefully read this Agreement, especially the <strong>provisions on limitation of liability, governing law, and dispute resolution</strong>. If you are under 18, please read this Agreement with your legal guardian and use Tabii only with their consent. By clicking "Agree", registering, or using Tabii, you accept all terms of this Agreement. If you disagree, please stop using Tabii immediately.</p>
+  </div>
+
+  <!-- I -->
+  <div class="section">
+    <div class="section-title">
+      <span class="zh">一、定义及协议范围</span>
+      <span class="en">I. Definitions and Scope</span>
+    </div>
+
+    <div class="subsection-title zh">定义</div>
+    <div class="subsection-title en">Definitions</div>
+    <p class="zh"><strong>Tabii 产品：</strong>指 Tabii 浏览器插件。<br>
+    <strong>开若图公司：</strong>Tabii 产品的运营方，即开若图科技（上海）有限公司。<br>
+    <strong>用户：</strong>指 Tabii 产品的使用人，在本协议中更多地称为"您"。</p>
+    <p class="en"><strong>Tabii Product:</strong> refers to the Tabii browser extension.<br>
+    <strong>Kairuotu / Company:</strong> the operator of Tabii, namely Kairuotu Technology (Shanghai) Co., Ltd.<br>
+    <strong>User:</strong> any person who uses Tabii, referred to as "you" in this Agreement.</p>
+
+    <div class="subsection-title zh">协议范围</div>
+    <div class="subsection-title en">Scope</div>
+    <p class="zh">本协议是您与开若图公司之间关于您下载、安装、使用 Tabii 产品所订立的协议，包括本协议正文、《Tabii 隐私政策》及开若图公司已经发布或将来可能发布的各类规则、规范、通知等，均为本协议不可分割的组成部分。</p>
+    <p class="en">This Agreement governs your download, installation, and use of Tabii, and includes this Agreement, the Tabii Privacy Policy, and all rules, standards, and notices published by Kairuotu now or in the future, all of which form an integral part of this Agreement.</p>
+  </div>
+
+  <!-- II -->
+  <div class="section">
+    <div class="section-title">
+      <span class="zh">二、账号管理</span>
+      <span class="en">II. Account Management</span>
+    </div>
+
+    <p class="zh"><strong>账号获得：</strong>Tabii 产品是一款网页管理工具，需您提供手机号码进行实名注册。您应确保提供的信息真实、准确、合法。</p>
+    <p class="en"><strong>Registration:</strong> Tabii requires real-name registration with a mobile phone number. You must ensure that all information provided is truthful, accurate, and lawful.</p>
+
+    <p class="zh"><strong>账号安全：</strong>您的账号仅限您本人使用，不得以任何形式赠与、借用、出租或转让。您需对账号下的一切行为承担法律责任。若因您保管不善导致账号被盗或密码丢失，相关损失由您自行承担。</p>
+    <p class="en"><strong>Security:</strong> Your account is for your personal use only and may not be gifted, lent, rented, or transferred. You are legally responsible for all activities under your account. Losses from inadequate safeguarding of your account or password are your own responsibility.</p>
+
+    <p class="zh"><strong>账号注销：</strong>您可以通过产品内设置的注销路径申请销户。</p>
+    <p class="en"><strong>Cancellation:</strong> You may cancel your account through the cancellation process in the product settings.</p>
+  </div>
+
+  <!-- III -->
+  <div class="section">
+    <div class="section-title">
+      <span class="zh">三、服务内容与说明</span>
+      <span class="en">III. Service Description</span>
+    </div>
+
+    <p class="zh">Tabii 为您提供浏览器标签页的清理、搜索及可视化管理工具服务。</p>
+    <p class="en">Tabii provides browser tab cleanup, search, and visual management tools.</p>
+
+    <p class="zh">您理解并同意，受限于人工智能识别技术限制，AI 识别的标题或摘要可能存在误差、偏差或误导性信息。该等内容仅供参考，不代表开若图公司的观点。您应自行判断其准确性，<strong>开若图公司不就 AI 生成内容的绝对准确性承担担保责任。</strong></p>
+    <p class="en">You understand and agree that due to limitations in AI recognition technology, AI-generated titles or summaries may contain errors or inaccuracies. Such content is for reference only and does not represent Kairuotu's views. <strong>Kairuotu makes no warranty as to the absolute accuracy of AI-generated content.</strong></p>
+
+    <div class="warn-block">
+      <p class="zh">您利用 Tabii 处理的网页内容应符合法律法规。<strong>不得利用本工具整理、传播任何危害国家安全、侵犯他人隐私或淫秽色情的内容。</strong>您对所访问的网站及所遇到的内容承担全部责任。</p>
+      <p class="en">All content you process using Tabii must comply with applicable laws. <strong>You may not use this tool to organize or disseminate content that endangers national security, infringes privacy, or is obscene or pornographic.</strong> You bear full responsibility for the websites you visit and the content you encounter.</p>
+    </div>
+  </div>
+
+  <!-- IV -->
+  <div class="section">
+    <div class="section-title">
+      <span class="zh">四、权利与许可</span>
+      <span class="en">IV. Rights and License</span>
+    </div>
+
+    <div class="subsection-title zh">权利归属</div>
+    <div class="subsection-title en">Ownership</div>
+    <p class="zh">Tabii 产品及其所依托的软件、源代码、界面设计、图文内容及品牌标识（商标、LOGO 等）的知识产权均归开若图公司（或相关权利人）所有。未经授权，您不得擅自使用、复制或传播。</p>
+    <p class="en">All intellectual property rights in Tabii, including its software, source code, interface design, content, and brand identifiers (trademarks, logos, etc.), are owned by Kairuotu or the relevant rights holders. Unauthorized use, reproduction, or distribution is prohibited.</p>
+
+    <div class="subsection-title zh">禁止行为</div>
+    <div class="subsection-title en">Prohibited Conduct</div>
+    <p class="zh">除非法律允许或经公司书面许可，您不得：</p>
+    <p class="en">Unless permitted by law or with prior written consent, you may not:</p>
+    <ul class="zh">
+      <li>对产品进行反向工程、反向汇编或尝试获取源代码；</li>
+      <li>利用机器人、爬虫等程序抓取、复制、镜像产品内容或数据；</li>
+      <li>使用未经授权的第三方软件、外挂或插件干扰、破坏产品正常运行；</li>
+      <li>实施危害网络安全的行为，包括非法侵入、干扰功能或传播恶意程序、病毒等。</li>
+    </ul>
+    <ul class="en">
+      <li>Reverse engineer, decompile, or attempt to extract the source code of the product;</li>
+      <li>Use bots or crawlers to scrape, copy, or mirror the product's content or data;</li>
+      <li>Use unauthorized third-party software or plug-ins to disrupt the normal operation of the product;</li>
+      <li>Engage in conduct threatening network security, including unauthorized intrusion, functional interference, or distributing malware or viruses.</li>
+    </ul>
+  </div>
+
+  <!-- V -->
+  <div class="section">
+    <div class="section-title">
+      <span class="zh">五、未成年人保护特别条款</span>
+      <span class="en">V. Protection of Minors</span>
+    </div>
+
+    <p class="zh"><strong>年龄限制：</strong>若您是未满 18 周岁的未成年人，您应在监护人监护、指导下并获得监护人同意后，方可使用 Tabii。若您未取得监护人的同意，请立即停止注册或使用本协议所涉服务。</p>
+    <p class="en"><strong>Age Restriction:</strong> If you are under 18, you must use Tabii under the supervision of and with the consent of your legal guardian. If you have not obtained your guardian's consent, please immediately cease registration or use of this service.</p>
+
+    <p class="zh"><strong>监护人责任：</strong>我们重视对未成年人个人信息的保护。未成年人用户在填写个人信息前，应事先取得监护人的明确同意。作为监护人，请密切关注被监护人的网络使用情况，并判断本产品提供的内容是否适合被监护人。</p>
+    <p class="en"><strong>Guardian Responsibilities:</strong> We take the protection of minors' personal information seriously. Minors must obtain their guardian's explicit consent before submitting personal information. Guardians should monitor their ward's internet usage and assess the suitability of this product's content.</p>
+  </div>
+
+  <!-- VI -->
+  <div class="section">
+    <div class="section-title">
+      <span class="zh">六、法律责任</span>
+      <span class="en">VI. Legal Liability</span>
+    </div>
+
+    <div class="warn-block">
+      <p class="zh">如您违反本协议约定，开若图公司有权立即暂停或终止向您提供部分或全部 Tabii 服务。<strong>您应自行承担自身损失以及相应法律责任。</strong></p>
+      <p class="en">If you violate this Agreement, Kairuotu reserves the right to immediately suspend or terminate part or all Tabii services. <strong>You shall bear your own losses and the corresponding legal liability.</strong></p>
+      <p class="zh"><strong>如您的行为给开若图公司造成损失，您应承担全部赔偿责任，包括行政处罚或损害赔偿等直接损失，以及商誉损失、和解款、律师费、诉讼费等间接损失。</strong></p>
+      <p class="en"><strong>If your actions cause losses to Kairuotu, you shall be liable for full compensation, including direct losses (administrative penalties, damages) and indirect losses (reputational damage, settlement payments, attorney's fees, and litigation costs).</strong></p>
+    </div>
+  </div>
+
+  <!-- VII -->
+  <div class="section">
+    <div class="section-title">
+      <span class="zh">七、服务的变更、中断、终止</span>
+      <span class="en">VII. Service Changes, Interruption, and Termination</span>
+    </div>
+
+    <p class="zh">开若图公司始终在不断变更和改进 Tabii 产品服务，会尽最大努力确保服务的连贯性和安全性。开若图公司可能会对 Tabii 产品进行更新，您应将软件更新到最新版本，否则开若图公司不保证您可正常使用 Tabii 产品。</p>
+    <p class="en">Kairuotu continuously updates and improves Tabii and will make every effort to ensure service continuity and security. Kairuotu may issue product updates; you should keep the software updated to the latest version, otherwise Kairuotu does not guarantee normal use of Tabii.</p>
+
+    <p class="zh">您理解并同意，开若图公司根据自身商业决策、政府行为、不可抗力等原因，可能会选择中止、中断及终止 Tabii 产品的部分或全部服务。</p>
+    <p class="en">You understand and agree that Kairuotu may suspend, interrupt, or terminate part or all of Tabii's services based on business decisions, governmental actions, force majeure, or other reasons.</p>
+  </div>
+
+  <!-- VIII -->
+  <div class="section">
+    <div class="section-title">
+      <span class="zh">八、法律适用与管辖</span>
+      <span class="en">VIII. Governing Law and Jurisdiction</span>
+    </div>
+
+    <p class="zh">本协议的订立、生效、履行、解释、修订、终止及纠纷解决，适用中华人民共和国法律法规（仅为本协议之目的，不包括香港特别行政区及澳门特别行政区法律法规，和中国台湾地区有关规定）。</p>
+    <p class="en">This Agreement shall be governed by the laws of the People's Republic of China (for purposes of this Agreement only, excluding the laws of the Hong Kong SAR, Macao SAR, and Taiwan region).</p>
+
+    <p class="zh">若您与开若图公司之间发生任何纠纷或争议，由双方协商解决。协商不成的，您同意将纠纷或争议提交开若图公司住所地人民法院管辖。</p>
+    <p class="en">Any disputes shall first be resolved through negotiation. If negotiation fails, you agree to submit the dispute to the People's Court at the place of Kairuotu's domicile.</p>
+  </div>
+
+  <!-- IX -->
+  <div class="section">
+    <div class="section-title">
+      <span class="zh">九、其他</span>
+      <span class="en">IX. Miscellaneous</span>
+    </div>
+
+    <p class="zh">本协议条款无论因何种原因部分无效或不可执行，其余条款仍有效，并对双方具有约束力。</p>
+    <p class="en">If any provision of this Agreement is invalid or unenforceable, the remaining provisions shall remain in full force and be binding on both parties.</p>
+
+    <p class="zh">为给您提供更好的服务，或因国家法律法规、政策调整、技术条件、产品功能等变化，开若图公司会适时对本协议进行修订。如您继续使用本软件及相关服务，即表示您已同意接受修订后的协议内容。如您对修改后的协议存有异议，请立即停止使用本软件及相关服务。</p>
+    <p class="en">Kairuotu may amend this Agreement from time to time to improve services or in response to changes in laws, policies, technology, or product features. Your continued use of the software constitutes acceptance of the amended Agreement. If you object to any amendments, please immediately cease using the software and related services.</p>
+
+    <p class="zh">如您对本协议有任何意见或建议，您可发送邮件至 <a href="mailto:hi@tabiiclean.com">hi@tabiiclean.com</a> 与开若图公司联系。</p>
+    <p class="en">If you have any comments or suggestions regarding this Agreement, please contact us at <a href="mailto:hi@tabiiclean.com">hi@tabiiclean.com</a>.</p>
+  </div>
+
+  <div class="footer">
+    <div class="zh">© 2026 开若图科技（上海）有限公司 · Tabii Browser Extension</div>
+    <div class="en">© 2026 Kairuotu Technology (Shanghai) Co., Ltd. · Tabii Browser Extension</div>
+  </div>
+
+</div>
+
+<script>
+  var currentLang = 'zh';
+  function toggleLang() {
+    currentLang = currentLang === 'zh' ? 'en' : 'zh';
+    document.body.className = 'lang-' + currentLang;
+    document.documentElement.lang = currentLang === 'zh' ? 'zh-CN' : 'en';
+    document.getElementById('lang-btn').textContent = currentLang === 'zh' ? 'EN' : '中文';
+  }
+</script>
+
+</body>
+</html>
